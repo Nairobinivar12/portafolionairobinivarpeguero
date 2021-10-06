@@ -174,7 +174,7 @@ p {
     position: absolute;
     top: 7vmin;
     left: -18vmin;
-    background: #FF046F;
+    background: white;
     border-radius: 3px;
     text-align: left;
     padding: 13vmin 5vmin 20vmin 10vmin;
@@ -186,21 +186,21 @@ p {
 .section-1 .row .col-md-6 .panel h1 {
     font-weight: bold;
     padding: 0.4em 0;
-    font-size: 2rem;
-    color: white;
+    font-size: 1rem;
+    color: black
 }
 
 .section-1 .row .col-md-6 .panel p {
     font-size: 1rem;
-    color: white
+    color: black;
 }
 
 .section-1 .row .col-md-12 .panel p {
     font-size: 3rem;
-    color: white
+    color: black;
 }
 
 .section-1 .row .col-md-12 .panel h1 {
     font-size: 3rem;
-    color: white
+    color: white;
 }
