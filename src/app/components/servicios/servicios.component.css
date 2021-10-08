@@ -1,9 +1,54 @@
-.service {
+#course {
     display: -ms-grid;
     display: grid;
     place-items: center;
     min-height: 100vh;
     width: 100vw;
+    background: #FF046F;
+}
+
+#course .box-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    width: 75%;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+#course .box-container .box {
+    height: 22rem;
+    width: 22rem;
+    border-radius: .5rem;
+    -webkit-box-shadow: 0 0 .3rem #333;
+    box-shadow: 0 0 .3rem #333;
+    margin: 2rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-flow: column;
+    flex-flow: column;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.service {
+    min-height: 100vh;
+    width: 100%;
     background: #FF046F;
 }
 
@@ -30,12 +75,12 @@
 }
 
 .service .box-container {
-    width: 90%;
+    width: 100%;
 }
 
 .service .box-container .box {
     background: #fff;
-    max-width: 60rem;
+    max-width: 600rem;
     border-radius: .5rem;
     -webkit-box-shadow: 0 0 .3rem #333;
     box-shadow: 0 0 .3rem #333;
@@ -55,25 +100,6 @@
 .service .box-container .box img {
     height: 7rem;
     margin-right: 4rem;
-}
-
-.service .box-container .box .info {
-    padding-left: 2.5rem;
-    border-left: 0.4rem solid #00B894;
-}
-
-#service .box-container .box .info h2 {
-    font-size: 3rem;
-    color: #00B894;
-}
-
-#service .box-container .box .info p {
-    font-size: 1.5rem;
-    color: #333;
-}
-
-#service .box-container .box:nth-child(2) {
-    float: right;
 }
 
 .heading {
