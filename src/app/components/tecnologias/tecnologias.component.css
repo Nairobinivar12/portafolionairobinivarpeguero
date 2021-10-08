@@ -6,9 +6,13 @@
 
 /*voy a usar*/
 
+.fondo {
+    background-color: #FF046F;
+}
+
 .heading-tec {
     font-size: 2.5rem;
-    color: #FF046F;
+    color: #fff;
 }
 
 .tecnologias {
