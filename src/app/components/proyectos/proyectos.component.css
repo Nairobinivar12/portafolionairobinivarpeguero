@@ -20,12 +20,16 @@ h5 {
 .boton {
     background-color: #FF046F;
     color: rgb(68, 24, 24);
-    width: 15%;
+    text-decoration: none;
+}
+
+
+/*
+ width: 15%;
     height: 5vh;
     margin-left: 10%;
     font-size: 100%;
-    text-decoration: none;
-}
+*/
 
 #course .heading::after {
     content: '';
