@@ -20,11 +20,14 @@ h5 {
 .boton {
     background-color: #FF046F;
     color: white;
-    width: 20%;
+}
+
+
+/* propiedades para elboton
+   width: 20%;
     height: 5vh;
     margin-left: 10%;
-    font-size: 100%;
-}
+    font-size: 100%;*/
 
 #course .heading::after {
     content: '';
